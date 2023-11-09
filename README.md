@@ -1,6 +1,7 @@
 # FinalTest_dibimbing
 
 # NURHAYATI - FINAL TEST DATA WAREHOUSING
+## Mentor ka Djamier Sastro
 
 ## tools
 - Postgres SQL
@@ -10,7 +11,10 @@
 ## ETL- Essay 1
 ## Essay 1 - ETL
 Sebagai seorang Data Engineer, kamu diberikan tugas untuk melakukan Web Scraping kumpulan berita dari suatu API.
+
 API URL: https://berita-indo-api-next.vercel.app/api/cnn-news/teknologi
+
+
 API Return Example:
 {
 "message": "Result of type teknologi news in CNN News",
@@ -28,11 +32,15 @@ API Return Example:
 }
 ]
 }
+
+
 Tasks:
 1. Buatlah API request untuk mendapatkan data return API berupa JSON seperti contoh di atas dengan menggunakan Python
 2. Ambil value dari key ‘data’ dalam JSON, dan transformasi menjadi sebuah DataFrame. Contoh:
 
 3. Transformasi data kolom ‘isoDate’ menjadi tipe data datetime
+
+   
 
 ## Essay 1 - ETL 2
 4. Aggregasi data berdasarkan kolom ‘creator’, serta urutkan berdasarkan jumlah berita terbanyak. Contoh:
@@ -42,6 +50,8 @@ Notes:
 Jumlah data dari contoh - contoh terlampir bisa berbeda dengan jumlah data yang kamu dapat
 Gunakan Google Colab untuk mengerjakan assignment ini
 Kamu bisa menggunakan library: requests, pandas
+
+
 
 # Essy 2 - SQL - Data Warehousing with pyton
 ## Essay 2 - Data Warehouse
@@ -66,6 +76,8 @@ user_id (FK to raw_users)
 post_id (FK to raw_posts)
 like_date
 
+
+
 ## Essay 2 - Data Warehouse 2
 ### Questions
 1. Please create dimension tables dim_user , dim_post , and dim_date to store
@@ -80,6 +92,8 @@ day
 Notes
 We use PostgreSQL as the database
 Create and populate raw tables:
+
+
 
 ### Create raw tables
 
